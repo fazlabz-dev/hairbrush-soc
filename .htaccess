@@ -1,0 +1,17 @@
+<IfModule mod_headers.c>
+   BrowserMatch MSIE is-msie
+   Header set X-UA-Compatible IE=edge env=is-msie
+</IfModule>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php !-f
+RewriteRule ^([^\.]+)$ err.php [NC,L]
+
+ErrorDocument 403 /err.php
+ErrorDocument 404 /err.php

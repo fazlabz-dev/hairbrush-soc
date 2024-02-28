@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html data-scribe="page:button" lang="en">
+  <!-- stolen from twitter -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Post Button</title>
+    <style type="text/css">body,html{margin:0;padding:0}.btn,.btn i{position:relative}.btn,.btn .label b{font-weight:500}#widget,.btn i,.rtl .btn .label b{display:inline-block}.btn,.xl .btn{border-radius:9999px}.btn,.rtl .btn,.rtl.xl .btn,.xl .btn{padding:1px 12px}#count,#widget,.btn .label,.btn .label b{white-space:nowrap}html{font:12px/18px 'Helvetica Neue',Arial,sans-serif;color:#333;-webkit-user-select:none;-ms-user-select:none;-moz-user-select:none;user-select:none}body{background:0 0}a{outline:0;text-decoration:none}body.rtl{direction:rtl}#widget{overflow:hidden;text-align:left}#count,.btn,.btn .label,.btn-o,.count-o{display:inline-block;vertical-align:top;zoom:1}.btn-o{max-width:100%}.btn{height:20px;box-sizing:border-box;background-color:#32cd32;color:#fff;cursor:pointer}.btn:active,.btn:focus,.btn:hover{background-color:#6eff90}.btn:active{box-shadow:inset 0 3px 5px rgba(0,0,0,.1)}.xl .btn:active{box-shadow:inset 0 3px 7px rgba(0,0,0,.1)}.btn i{top:2px;width:14px;height:14px;background:url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='32' height='32' fill='none'/%3E%3Cpath d='M17.9686 14.1623L26.7065 4H24.6358L17.0488 12.8238L10.9891 4H4L13.1634 17.3432L4 28H6.07069L14.0827 18.6817L20.4822 28H27.4714L17.9681 14.1623H17.9686ZM15.1326 17.4607L14.2041 16.132L6.81679 5.55961H9.99723L15.9589 14.0919L16.8873 15.4206L24.6368 26.5113H21.4564L15.1326 17.4612V17.4607Z' fill='white'/%3E%3C/svg%3E%0A") no-repeat}.btn .label{margin-left:3px}.rtl .btn .label{margin-right:3px}.rtl .btn .label b{direction:ltr}.xl{font-size:13px;line-height:26px}.xl .btn{height:28px}.xl .btn i{top:4px;height:18px;width:18px}.xl .btn .label{margin-left:4px}.rtl.xl .btn .label{margin-right:4px}.aria{position:absolute;left:-999em}.rtl .aria{left:auto;right:-999em}.count-o{position:relative;background:#fff;border:1px solid #829aab;border-radius:4px;visibility:hidden;min-height:18px;min-width:15px;text-align:center}#count{color:#292f33}#count:focus,#count:hover{color:#333;text-decoration:underline}.ncount .count-o{display:none}.count-ready .count-o{visibility:visible}.count-o i,.count-o u{position:absolute;zoom:1;line-height:0;width:0;height:0;left:0;top:50%;margin:-4px 0 0 -4px;border:4px solid transparent;border-right-color:#829aab;border-left:0}.count-o u{margin-left:-3px;border-right-color:#fff}.rtl .count-o i,.rtl .count-o u{left:auto;right:0;margin:-4px -4px 0 0;border:4px solid transparent;border-left-color:#829aab;border-right:0}.rtl .count-o u{margin-right:-3px;border-left-color:#fff}.hcount .count-o{margin:0 0 0 5px}.hcount.rtl .count-o{margin:0 5px 0 0}.hcount #count,.xl #count{padding:0 8px}.xl .count-o{font-size:11px;border-radius:4px}.xl.hcount .count-o{margin:0 0 0 6px}.xl.rtl.hcount .count-o{margin:0 6px 0 0}.xl.hcount .count-o i,.xl.hcount .count-o u{margin:-5px 0 0 -5px;border-width:5px 5px 5px 0}.xl.hcount .count-o u{margin-left:-4px}.xl.rtl.hcount .count-o i,.xl.rtl.hcount .count-o u{margin:-5px -5px 0 0;border-width:5px 0 5px 5px}.xl.rtl.hcount .count-o u{margin-right:-4px}</style>
+  </head>
+  <body data-scribe="section:share">
+    <div id="widget">
+      <div class="btn-o" data-scribe="component:button" style="width: 62px;">
+        <a href="https://<?= $_SERVER["HTTP_HOST"] ?>/share?text=<?= $_GET["text"] ?>" class="btn" id="b">
+          <i></i><span class="label" id="l">Post</span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  background: #eee;
+  border: 1px solid #ccc;
+}
+
+td, th {
+  padding: 2px 5px;
+}
+
+.stats {
+  float: right;
+}

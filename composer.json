@@ -1,0 +1,7 @@
+{
+    "require": {
+        "godruoyi/php-snowflake": "^1.0",
+        "phpmailer/phpmailer": "^6.1",
+        "jbroadway/slimdown": "^1.0"
+    }
+}

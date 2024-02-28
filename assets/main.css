@@ -1,0 +1,205 @@
+* {margin: 0; padding: 0}
+a {text-decoration: underline; color: blue}
+ul {list-style: none}
+a img, form, fieldset {border: 0}
+h1, h2, h3, h4, h5 {font-weight: normal}
+abbr {text-decoration: none; border-bottom: none}
+
+.emoji {
+  height: 1em;
+  width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}
+
+body {overflow-y: scroll}
+
+#container {width: 755px; margin: 0 auto; padding: 15px 0; text-align: left; position: relative}
+hr {display: none}
+#accessibility, #navigation h3, #footer h3 {position: absolute; left: -9999px; overflow: hidden}
+
+.badge:before {font-style: normal; display: inline; font-weight: 800; font-family: "Font Awesome 6 Pro"; color: black}
+.thumb .badge:before {font-weight: 500}
+.verified:before {content: "\2713"}
+
+.author {vertical-align: top !important}
+
+#header {height: 59px;line-height: 1}
+
+#container #flash .desc {padding-top: 11px; background: url(/images/arr2.gif) no-repeat 27px 0px; margin-bottom: 9px}
+#container #flash .desc p {display: block; background: #fff; font-size: 2.12em; line-height: 1.2em; padding: 7px; font-weight: bold}
+#container #flash .thumb {padding-left: 26px}
+
+#navigation, #footer {background: #fff}
+#doingForm .bar {background: #eee}
+
+#content {width: 555px; margin-top: 0px; float: left; padding-bottom: 15px; min-height: 500px}
+#content #doingForm .bar {line-height: 2.5em; position: relative; padding: 0 10px}
+#content #doingForm .bar h3 {font: normal 1.5em/1.5 Helvetica, Arial, sans-serif; color: #000; padding-right: 170px}
+#content #doingForm .bar span {font-size: 0.92em; display: block; position: absolute; top: 0; right: 10px}
+#content #doingForm .bar span#submit_loading {padding-top:.3em}
+#content #doingForm .info {background: #fff; padding-top: 3px; text-align: center}
+#content #doingForm textarea {width: 515px; padding: 9px; font: 1.15em/1.1 Helvetica, Arial, sans-serif; background: #fff; overflow: hidden; color: #000;resize: none}
+#content #doingForm .submit {background: url(/images/arr.gif) no-repeat top center; padding-top: 16px; height:40px}
+#content #submit {display: block; padding: 3px 10px; margin: 0 auto; font: bold 1.12em/1.5 Helvetica, Arial, sans-serif}
+#content h2.thumb {font-size: 3em}
+#content h2.thumb img {vertical-align: middle; border: 1px solid #999; height: 50px; width: 50px}
+#content h2.thumb small {font-size: .4em}
+#content div.desc {padding-top: 11px; background: url(/images/arr2.gif) no-repeat 14px 0px; margin-top: 6px}
+#content div.desc .entry-title {display: block; background: #fff; font-size: 2.12em; line-height: 1.2em; padding: 7px; font-weight: bold}
+#content div.desc .meta {background: #fff; font-size: .98em; text-align: right; padding: 2px 7px; font-weight: normal}
+#content div.desc .meta img {vertical-align: top}
+#content .tabMenu {width: 555px; padding: 1px 0; text-align: right; margin: 15px 0 0; border: 0}
+#content .tabMenu li {display: inline; margin: 0; border: 0}
+#content .tabMenu li a {display: inline; padding: 4px 20px 4px 20px; background: #eee}
+#content .tabMenu li.active a {background: #fff; color: #000}
+#content .tab {background: #fff; padding: 5px}
+#content .tab #ad {text-align: center}
+#content .tab p {text-indent: 1em}
+#content .doing {margin: .5em 0; padding: 0 0px 1em; font-size: 1.2em; line-height: 1.1; width: 100%}
+#content .doing td {border-bottom: 1px solid #bbb; vertical-align: middle}
+#content .doing .thumb {padding: 6px 5px 4px 4px; width: 50px}
+#content .doing .meta {font-size: 0.80em}
+#content .doing .meta img {vertical-align: top}
+#content .doing .protected .content {background:url(/images/icon_red_lock.gif) no-repeat 99% 10%}
+#content .doing .protected a {color: red}
+#content .doing .user_actions {vertical-align: top; width: 16px}
+#content .doing .entry-content, #side i {display: inline; overflow: hidden; overflow-wrap: break-word; word-break: break-word}
+#content .green_button {background-color:#D4FF84; border: 4px solid #669933; padding: 5px; cursor:pointer}
+#content .green_button a {color: black; text-decoration:none; font-weight:bold}
+#content #permalink {padding-top: 153px}
+#content #permalink div.desc {background: 0}
+#content #permalink h2 {background: url(/images/arr.gif) no-repeat 335px 0; padding: 16px 0 5px 321px; font-size: 2em}
+#content #permalink #ad {text-align: right}
+#content .desc .status_actions {float: right; padding: 5px 5px}
+#content .desc .status_actions li {display: inline}
+#content .desc .status_actions li img {vertical-align: middle}
+
+.hentry .entry-content, td, .msg h1 {overflow: hidden; overflow-wrap: break-word; word-break: break-word}
+
+.pagination {display: flex;width: 100%;align-items: stretch;flex-direction: row}
+.pagination .c {text-align: center; flex: 1}
+
+.statuses_options {padding:7px}
+
+.subpage #content {padding-top: 11px; background: url(/images/arr2.gif) no-repeat 25px 0px; margin-top: 6px}
+.subpage #content .wrapper {background: #fff; padding: 5px 10px 5em}
+.subpage #content h1, .subpage #content h2, .subpage #content h3, .subpage #content h4, .subpage #content h5 {margin: 13px 0 4px 0}
+.subpage #content p {line-height: 1.2; margin: 5px 0}
+.subpage #content ul {padding-left: 30px}
+.subpage #content ol, #side ol {padding-left: 30px}
+.subpage #content code {font-size: 1.2em}
+
+#side {float: right; width: 162px; padding: 12px; margin-top: 10px; margin-bottom: 10px; border: 1px solid #87bc44; background: #e0ff92; line-height: 1.2}
+.subpage #side {margin-top: 15px}
+#side div.msg {padding: 10px 5px 10px 30px; background: url(/images/girl.gif) no-repeat 0% 50%}
+#side div.msg strong {display: block; font-size: 1.4em}
+#side div.msg h3 {padding: 10px 0; font-size: 1.25em}
+#side ul {margin: 8px 0}
+#side .notify {border: 1px solid #87bc44; background: #fff; padding: 2px 5px; font-weight: bold; margin: 10px -3px}
+#side .actions {border: 1px solid #87bc44; background: #fff; padding: 2px 5px; margin: 10px -3px}
+#side .actions small {font-size: .9em}
+#side .actions a {padding-left: 7px}
+#side .admin {border: 1px solid #87bc44; background: #fff; padding: 2px 5px; margin: 10px -3px}
+#side .admin a {color: red}
+#side .admin li {line-height: 20px}
+#side .featured {border: 1px solid #87bc44; background: #fff; padding: 2px 5px; margin: 10px -3px}
+#side .featured img {vertical-align: middle; padding: 1px 0 1px 7px}
+
+#side .notify {text-align: center; line-height: 1.5; padding: 5px 0}
+#side .notify .join {font-size: 1.5em; background: yellow}
+#side ul.todo {font-style: italic}
+#side .signin label {font-size: 1.12em; padding-left: 1px}
+#side .signin #email, #side .signin #pass {border: 1px solid #86bc46; background: #fff; width: 158px; display: block; padding: 4px 2px; font-size: 0.92em}
+#side .signin #remember {display: block; float: left; margin-right: 4px}
+#side .signin div {margin: 2px 0 4px}
+#side #submit {display: block; padding: 3px 10px; margin: 5px auto; font: bold 1.12em/1.5 Helvetica, Arial, sans-serif}
+#side #friends img {padding: 0px}
+#side #friends .non-friend {opacity: .7; filter: alpha(opacity=70)}
+#side .note {background: #fff; font-size: .95em; padding: 3px; border: 1px dashed #aaa}
+#side .note strong {color:red}
+#side .note li+li {border-top: 1px solid #ccc; padding-top: 4px}
+#side .note a {text-decoration: underline}
+#side .about li {padding-bottom: 3px}
+
+#navigation {position: absolute; top: 32px; right: 0; padding: 6px 3px; line-height: 1}
+#navigation li {display: inline; padding: 0 0 0 2px}
+#navigation li:before {content: '|'; padding-right: 4px}
+#navigation li.first:before {content: ''; padding-right: 0}
+	
+#footer {clear: left; width: 555px; text-align: center; padding: 8px 0; line-height: 1}
+#footer li {display: inline; background: url(/images/divider.gif) no-repeat 0% 50%; padding: 0 2px 0 8px}
+#footer li.first {background: none}
+
+#front h2 {line-height: 1.2em}
+#front h2 em {font-style: normal; background-color: yellow}
+#front #tour {border: 1px solid #87bc44; margin: 20px 0 15px 0; padding-top: 7px; text-align: center}
+
+#settingsNav {margin: 0 0 20px 0; font-weight: normal}
+
+fieldset {margin: 10px 0}
+fieldset p {margin: 0 0 5px 0}
+fieldset th,td {padding: 7px 3px; vertical-align: top}
+fieldset th {text-align: right; width: 11em; padding-top: 10px; font-weight: normal}
+fieldset small {color: #777; font-size: .97em}
+fieldset input[type="text"], fieldset input[type="email"], fieldset textarea, input[type="password"], select, checkbox {margin-right: 3px; border: 1px solid #aaa; padding: 4px 2px}
+fieldset input[type="text"], fieldset input[type="email"], fieldset textarea, input[type="password"] {width: 12em}
+fieldset td[colspan="2"] {text-align: right}
+fieldset label {white-space: nowrap; font-weight: normal}
+
+fieldset.user_search {margin-bottom: 3px}
+fieldset.user_search .friend {border: 2px solid red}
+fieldset.user_search img {vertical-align: middle}
+fieldset.user_search input {font-size: .9em}
+
+#bio-pics {text-align: center; padding: 10px 0}
+#bio-pics div {text-align: left; margin: auto; width: 158px}
+#bio-pics img {padding-right: 2px}
+
+#invite_preview {background-color: #eef; padding: 10px; font-size: 1.2em}
+#invite_message {white-space: normal}
+
+.direct_messages .bar h3 { padding: 4px 4px}
+.direct_messages .bar h3 select {width: 13em}
+
+.devices {width: 100%}
+.devices small {font-size: 95%}
+.devices .thumb img {border: 1px solid gray}
+#create_device form {padding: 5px}
+#create_device input[type="text"] {width: 12em}
+#create_device select {width: 5em}
+#create_device input[type="text"], #create_device input[type="submit"], #create_device select {font-size:1.5em; vertical-align: middle; padding: 4px 2px}
+.not_verified {background-color: #ffc}
+.subpage #content tr.not_verified code {display:block; font-size: 1.9em; color: green; font-weight: bold; text-align: center}
+
+form.device_control {display: inline}
+form.device_control select {font-size: 85%}
+
+#downtime-announce {background: #fff; border: 1px solid grey; padding: 7px; color: #333; font-size: 1.1em}
+.note {background: #fff; border: 1px solid grey; padding: 7px; color: #333; font-size: 1.1em}
+
+.friend-actions {font-size: 98%; text-indent: .6em}
+
+#url_username {color: green}
+
+.hentry > .thumb > a > img { height: 48px; width: 48px; }
+
+.nav {display: flex; float: right; font-size: .6em; padding: 0; margin: 0; height: auto; background: white; padding: .25em .4em .3em .4em; border-radius: 2px}
+.nav li {display: inline; padding: 0; margin: 0}
+.nav li + li {border-left: 1px solid black; padding-left: 5px; margin-left: 5px}
+.nav li a:hover {text-decoration: underline}
+.nav li .n {background:red; border-radius: 50%; width: 1em; padding: 1px; text-align: center; color: white}
+
+.b {
+  position: absolute;
+  top: 6px;
+  right: -5px;
+  padding: 2px;
+  width: 1em;
+  text-align: center;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+
+.action {display: inline-block; width: 1.2em; text-align: center}
