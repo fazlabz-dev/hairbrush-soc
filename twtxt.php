@@ -7,6 +7,9 @@
 include "inc/main.php";
 header("Content-Type: text/plain; charset=utf-8");
 foreach($_ATWEETS as $_STATUS) {
-  echo date("c", strtotime($_STATUS["date"])) . "\t" . htmlspecialchars($_STATUS["content"]) . "\n";
+  $u = $_STATUS["user"]["username"];
+  $d = htmlspecialchars($_STATUS["content"]);
+  $t = date("c", strtotime($_STATUS["date"]));
+  echo $t . "\t" . "@" . $u . ": " . $d . "\n";
 }
 ?>
