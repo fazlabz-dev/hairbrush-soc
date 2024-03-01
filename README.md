@@ -13,6 +13,11 @@ Hairbrush is a hard fork of unmaintained [Bwitter](https://github.com/yukiqt/bwi
 * lime360 - programming.
 * Amyot - logo and the background.
 * [ActivityPub-Single-PHP-File](https://gitlab.com/edent/activitypub-single-php-file) - reference for ActivityPub support.
+* Inspiration sources:
+  * [Yarn.social](https://yarn.social/)
+  * [Memos](https://www.usememos.com/)
+  * [microblog.pub](https://docs.microblog.pub/)
+  * [Blips](https://blips.club/)
 
 ## License
 Licensed under [GNU GPL 3.0](LICENSE.md).
