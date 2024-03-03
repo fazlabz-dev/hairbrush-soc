@@ -90,6 +90,7 @@
 	//	Routing:
 	//	The .htaccess changes /whatever to /?path=whatever
 	//	This runs the function of the path requested.
+	//  TODO: Add this to err.php (aka the existing routing engine used in hairbrush)
 	switch ($path) {
 		case ".well-known/webfinger":
 			webfinger();   //	Mandatory. Static.
@@ -123,7 +124,7 @@
 			"subject" => "acct:{$username}@{$server}",
  			  "links" => array(
 				array(
-					 "rel" => "self",
+					"rel" => "self",
 					"type" => "application/activity+json",
 					"href" => "https://{$server}/{$username}"
 				)
@@ -173,7 +174,7 @@
 		die();
 	}
 
-	//	Follower / Following:
+	// Follower / Following:
 	// These JSON documents show how many users are following / followers-of this account.
 	// The information here is self-attested. So you can lie and use any number you want.
 	function following() {
