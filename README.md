@@ -8,6 +8,7 @@ Hairbrush is a hard fork of unmaintained [Bwitter](https://github.com/yukiqt/bwi
 * Markdown formatted posts.
 * Emoji support via [Twemoji](https://twemoji.twitter.com/).
 * Customized version of the [Tweet button](https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/overview) without JavaScript and with modified styles to fit Hairbrush's look and feel.
+* Slightly improved and rewritten codebase.
 
 ## Credits
 * lime360 - programming.

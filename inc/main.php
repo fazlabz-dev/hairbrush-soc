@@ -390,4 +390,14 @@ while($row = $res->fetch_array()) {
   if($row["resolved"] == 0)
     $_REPORTS[$row["id"]] = $row;
 }
+
+// Twig values
+$vals = array(
+  "uid" => $uid,
+  "get" => $_GET,
+  "post" => $_POST,
+  "notice" => $_NOTICE,
+  "users" => $_USERS,
+  "posts" => $_TWEETS
+);
 ?>
